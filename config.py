@@ -31,7 +31,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "paisakamalo.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "8cd309cdcc4540facb9b0e8ea99088df38b3f8e6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HowToDownloadMovieRk/10")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/HowToDownloadMovieRk/3")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002037440123"))
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🔞  𝐖𝐚𝐭𝐜𝐡 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐀𝐝𝐮𝐥𝐭 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 🔞<br><br>⭕ https://t.me/Adult_Zonn"
+USER_REPLY_TEXT = "🔞  𝐖𝐚𝐭𝐜𝐡 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐀𝐝𝐮𝐥𝐭 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 🔞\n\n⭕ https://t.me/Adult_Zonn"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6036448711)
